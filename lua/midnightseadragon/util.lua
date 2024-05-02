@@ -60,7 +60,7 @@ local function HSBtoHEX(hsb)
   i_rgb.g = i_rgb.g + m
   i_rgb.b = i_rgb.b + m
 
-  local hex = string.format("#%X%X%X",
+  local hex = string.format("#%02X%02X%02X",
     math.floor(i_rgb.r * 255),
     math.floor(i_rgb.g * 255),
     math.floor(i_rgb.b * 255))
@@ -73,8 +73,8 @@ end
 function M.darken(color, percent)
   local color_hsb = HEXtoHSB(color)
   local diff = color_hsb.b - percent
-  if diff <= 0 then
-    color_hsb.b = 0
+  if diff <= 0.0 then
+    color_hsb.b = 0.0
   else
     color_hsb.b = diff
   end
@@ -84,8 +84,8 @@ end
 function M.brighten(color, percent)
   local color_hsb = HEXtoHSB(color)
   local diff = color_hsb + percent
-  if diff >= 1 then
-    color_hsb.b = 1
+  if diff >= 1.0 then
+    color_hsb.b = 1.0
   else
     color_hsb.b = diff
   end
