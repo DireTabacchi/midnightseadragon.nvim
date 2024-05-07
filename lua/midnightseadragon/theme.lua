@@ -40,10 +40,10 @@ M.default = {
     DiagnosticError = { fg = colors.red_l },
     DiagnosticInfo = { fg = colors.cyan_l },
     DiagnosticHint = { fg = colors.fg1 },
-    DiagnosticUnderlineWarn = { fg = colors.orange_l, undercurl = true },
+    DiagnosticUnderlineWarn = { sp = colors.orange_l, undercurl = true },
     DiagnosticUnderlineError = { sp = colors.red_l, undercurl = true },
-    DiagnosticUnderlineInfo = { fg = colors.cyan_l, undercurl = true },
-    DiagnosticUnderlineHint = { fg = colors.fg1, underline = true },
+    DiagnosticUnderlineInfo = { sp = colors.cyan_l, undercurl = true },
+    DiagnosticUnderlineHint = { sp = colors.fg1, underline = true },
 
     -- Syntax highlighting
     Comment = {fg = colors.fg4 },
