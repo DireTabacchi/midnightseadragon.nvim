@@ -36,4 +36,40 @@ M.default = {
     black_d = "#0c0c0d",
 }
 
+
+M.compat256 = {
+  bg0 =       "#000000",
+  bg1 =       "#000000",
+  bg2 =       "#000000",
+  bg3 =       "#00005f",
+  bg4 =       "#00005f",
+  fg0 =       "#d7d7ff",
+  fg1 =       "#afd7d7",
+  fg2 =       "#87afaf",
+  fg3 =       "#5f87af",
+  fg4 =       "#5f5f87",
+  red_l =     "#d75f5f",
+  red_d =     "#af0000",
+  orange_l =  "#ffaf5f",
+  orange_d =  "#af5f00",
+  yellow_l =  "#d7af5f",
+  yellow_d =  "#af8700",
+  green_l =   "#5fd75f",
+  green_d =   "#00af00",
+  seafoam_l = "#5fd787",
+  seafoam_d = "#00af5f",
+  ice_l =     "#5fd7d7",
+  ice_d =     "#00afaf",
+  cyan_l =    "#5fafd7",
+  cyan_d =    "#0087af",
+  blue_l =    "#005faf",
+  blue_d =    "#005fd7",
+  magenta_l = "#875fd7",
+  magenta_d = "#5f00af",
+  white_l =   "#d7d7d7",
+  white_d =   "#878787",
+  black_l =   "#5f5f5f",
+  black_d =   "#000000",
+}
+
 return M

@@ -1,4 +1,10 @@
-local colors = require("midnightseadragon.colors").default
+local colors = {}
+
+if vim.g.MdsCompat then
+  colors = require("midnightseadragon.colors").compat256
+else
+  colors = require("midnightseadragon.colors").default
+end
 
 local M = {}
 
