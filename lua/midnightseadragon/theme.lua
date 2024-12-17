@@ -52,6 +52,10 @@ M.default = {
     DiagnosticUnderlineError = { sp = d_colors.red_l, undercurl = true },
     DiagnosticUnderlineInfo = { sp = d_colors.cyan_l, undercurl = true },
     DiagnosticUnderlineHint = { sp = d_colors.fg1, underline = true },
+    DiagnosticSignWarn = { fg = d_colors.orange_l, bg = d_colors.bg1 },
+    DiagnosticSignError = { fg = d_colors.red_l, bg = d_colors.bg1 },
+    DiagnosticSignInfo = { fg = d_colors.cyan_l, bg = d_colors.bg1 },
+    DiagnosticSignHint = { fg = d_colors.fg1, bg = d_colors.bg1 },
 
     -- Syntax highlighting
     Comment = {fg = d_colors.fg4 },
