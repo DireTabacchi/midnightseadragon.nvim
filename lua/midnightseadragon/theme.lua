@@ -99,7 +99,7 @@ M.default = {
     ["@variable.builtin"] = { fg = d_colors.cyan_d },
     ["@variable.parameter"] = { fg = d_colors.cyan_d },
     ["@variable.parameter.builtin"] = { fg = d_colors.magenta_l },
-    ["@variable.member"] = { fg = d_colors.cyan_l },
+    ["@variable.member"] = { fg = d_colors.blue_l },
 
     ["@constant"] = { fg = d_colors.blue_d },
     ["@constant.builtin"] = { fg = d_colors.magenta_d },
