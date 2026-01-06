@@ -194,6 +194,9 @@ M.default = {
     ["@markup.link.label"] = { fg = d_colors.cyan_l },
     ["@markup.link.url"] = { fg = d_colors.seafoam_l },
 
+    ["@diff.minus"] = { fg = d_colors.red_l },
+    ["@diff.plus"] = { fg = d_colors.green_l },
+
     -- Lualine specific
     LuaLineDiffAdd = { fg = d_colors.green_l },
     LuaLineDiffChange = { fg = c_util.darken(d_colors.magenta_l, 0.20) },
