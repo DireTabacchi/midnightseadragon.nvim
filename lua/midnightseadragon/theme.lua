@@ -62,9 +62,9 @@ M.default = {
     Constant = {fg = d_colors.orange_l },
     String = {fg = d_colors.green_l },
     Character = {fg = d_colors.green_d },
-    Number = {fg = d_colors.orange_l },
-    Float = {fg = d_colors.orange_l },
-    Boolean = {fg = d_colors.orange_l },
+    Number = {fg = d_colors.yellow_d },
+    Float = {fg = d_colors.yellow_d },
+    Boolean = {fg = d_colors.yellow_d },
     Identifier = {fg = d_colors.cyan_l },
     Function = {fg = d_colors.seafoam_l },
     Statement = {fg = d_colors.orange_l },
@@ -102,7 +102,7 @@ M.default = {
     ["@variable.member"] = { fg = d_colors.blue_l },
 
     ["@constant"] = { fg = d_colors.orange_l },
-    ["@constant.builtin"] = { fg = d_colors.orange_l },
+    ["@constant.builtin"] = { fg = d_colors.orange_d },
     ["@constant.macro"] = { fg = d_colors.orange_d },
 
     ["@module"] = { fg = d_colors.seafoam_d },
@@ -121,9 +121,9 @@ M.default = {
     ["@character"] = { fg = d_colors.green_d },
     ["@character.special"] = { fg = d_colors.seafoam_l },
 
-    ["@boolean"] = { fg = d_colors.orange_l },
-    ["@number"] = { fg = d_colors.orange_l },
-    ["@number.float"] = { fg = d_colors.orange_l },
+    ["@boolean"] = { fg = d_colors.yellow_d },
+    ["@number"] = { fg = d_colors.yellow_d },
+    ["@number.float"] = { fg = d_colors.yellow_d },
 
     ["@type"] = { fg = d_colors.ice_l },
     ["@type.builtin"] = { fg = d_colors.ice_d },
